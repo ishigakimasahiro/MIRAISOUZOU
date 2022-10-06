@@ -1,7 +1,12 @@
 {
     "name": "Oculus.Spatializer",
-    "references": [],
-    "includePlatforms": [],
+    "rootNamespace": "",
+    "references": [
+        "GUID:3d2c6c35bff878341a57ebf7a749f298"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
