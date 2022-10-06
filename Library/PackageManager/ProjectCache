@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638002208144257277
-    m_Hash: 2578759246
+      ticks: 638006675565597266
+    m_Hash: 1835262035
   m_LockFileStatus:
     m_FilePath: C:/Users/isima/Desktop/Mirai0/MIRAISOUZOU/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638002208146243865
-    m_Hash: 3810742519
+      ticks: 638006675566474145
+    m_Hash: 1701135127
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -1579,7 +1579,7 @@ m_PackageAssets:
       - name: com.unity.modules.xr
         version: 1.0.0
       - name: com.unity.xr.legacyinputhelpers
-        version: 2.1.8
+        version: 2.1.10
       - name: com.unity.modules.androidjni
         version: 1.0.0
       - name: com.unity.modules.unitywebrequest
@@ -1836,7 +1836,7 @@ m_PackageAssets:
       - name: com.unity.modules.xr
         version: 1.0.0
       - name: com.unity.xr.legacyinputhelpers
-        version: 2.1.8
+        version: 2.1.10
       - name: com.unity.modules.particlesystem
         version: 1.0.0
       keywords:
@@ -2067,7 +2067,7 @@ m_PackageAssets:
       - name: com.unity.modules.xr
         version: 1.0.0
       - name: com.unity.xr.legacyinputhelpers
-        version: 2.1.8
+        version: 2.1.10
       keywords: []
       registry:
         id: main
@@ -2201,7 +2201,7 @@ m_PackageAssets:
       - name: com.unity.modules.subsystems
         version: 1.0.0
       - name: com.unity.xr.legacyinputhelpers
-        version: 2.1.8
+        version: 2.1.10
       - name: com.unity.modules.vr
         version: 1.0.0
       - name: com.unity.modules.audio
@@ -2230,6 +2230,103 @@ m_PackageAssets:
         type: git
         url: https://github.com/Unity-Technologies/com.unity.xr.interaction.toolkit.git
         revision: b72ad6beca34bf12828097cb8f003a5168375678
+        path: 
+    - packageId: com.unity.xr.legacyinputhelpers@2.1.10
+      testable: 0
+      isDirectDependency: 1
+      version: 2.1.10
+      source: 1
+      resolvedPath: C:\Users\isima\Desktop\Mirai0\MIRAISOUZOU\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10
+      assetPath: Packages/com.unity.xr.legacyinputhelpers
+      name: com.unity.xr.legacyinputhelpers
+      displayName: XR Legacy Input Helpers
+      author:
+        name: 
+        email: 
+        url: 
+      category: XR
+      type: 
+      description: This package includes the tracked pose driver for the legacy input
+        system, the XR Bindings Seeding Tool and 3Dof Arm Model support for the Tracked
+        Pose Driver. The Tracked Pose Driver is a behavior that enables GameObjects
+        to track input devices, the XR Bindings Seeding Tool adds a menu item under
+        the 'Assets' menu which populates the Input Asset with Unity's crossplatform
+        Input Bindings
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        - 1.0.2
+        - 1.0.3
+        - 1.3.1
+        - 1.3.2
+        - 1.3.4
+        - 1.3.5
+        - 1.3.6
+        - 1.3.7
+        - 1.3.8
+        - 1.3.11
+        - 2.0.1
+        - 2.0.2
+        - 2.0.4
+        - 2.0.6
+        - 2.0.8
+        - 2.1.1
+        - 2.1.2
+        - 2.1.3
+        - 2.1.4
+        - 2.1.6
+        - 2.1.7
+        - 2.1.8
+        - 2.1.9
+        - 2.1.10
+        compatible:
+        - 2.1.8
+        - 2.1.9
+        - 2.1.10
+        verified: 2.1.10
+      dependencies:
+      - name: com.unity.modules.vr
+        version: 1.0.0
+      - name: com.unity.modules.xr
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.vr
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.modules.physics
+        version: 1.0.0
+      - name: com.unity.modules.xr
+        version: 1.0.0
+      - name: com.unity.modules.subsystems
+        version: 1.0.0
+      keywords:
+      - TPD
+      - Tracked Pose Driver
+      - XR
+      - Input
+      - Helpers
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637958908030000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.legacyinputhelpers.git
+        revision: 465ee12451634ea2b2986d54f6ae8be37316772a
         path: 
     - packageId: com.unity.xr.oculus@1.11.2
       testable: 0
@@ -2341,7 +2438,7 @@ m_PackageAssets:
       - name: com.unity.modules.xr
         version: 1.0.0
       - name: com.unity.xr.legacyinputhelpers
-        version: 2.1.8
+        version: 2.1.10
       - name: com.unity.subsystemregistration
         version: 1.1.0
       - name: com.unity.ugui
@@ -2461,7 +2558,7 @@ m_PackageAssets:
       - name: com.unity.modules.xr
         version: 1.0.0
       - name: com.unity.xr.legacyinputhelpers
-        version: 2.1.8
+        version: 2.1.10
       - name: com.unity.subsystemregistration
         version: 1.1.0
       - name: com.unity.inputsystem
@@ -2613,7 +2710,7 @@ m_PackageAssets:
       - name: com.unity.xr.management
         version: 4.2.0
       - name: com.unity.xr.legacyinputhelpers
-        version: 2.1.8
+        version: 2.1.10
       - name: com.unity.subsystemregistration
         version: 1.1.0
       - name: com.unity.xr.interactionsubsystems
@@ -4454,103 +4551,6 @@ m_PackageAssets:
         url: git@github.cds.internal.unity3d.com:unity/com.unity.xr.interactionsubsystems.git
         revision: c9d1e6a52c5806d8ec4d9f74ec9eaaf54f07d2c6
         path: 
-    - packageId: com.unity.xr.legacyinputhelpers@2.1.8
-      testable: 0
-      isDirectDependency: 0
-      version: 2.1.8
-      source: 1
-      resolvedPath: C:\Users\isima\Desktop\Mirai0\MIRAISOUZOU\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.8
-      assetPath: Packages/com.unity.xr.legacyinputhelpers
-      name: com.unity.xr.legacyinputhelpers
-      displayName: XR Legacy Input Helpers
-      author:
-        name: 
-        email: 
-        url: 
-      category: XR
-      type: 
-      description: This package includes the tracked pose driver for the legacy input
-        system, the XR Bindings Seeding Tool and 3Dof Arm Model support for the Tracked
-        Pose Driver. The Tracked Pose Driver is a behavior that enables GameObjects
-        to track input devices, the XR Bindings Seeding Tool adds a menu item under
-        the 'Assets' menu which populates the Input Asset with Unity's crossplatform
-        Input Bindings
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 1.0.0
-        - 1.0.2
-        - 1.0.3
-        - 1.3.1
-        - 1.3.2
-        - 1.3.4
-        - 1.3.5
-        - 1.3.6
-        - 1.3.7
-        - 1.3.8
-        - 1.3.11
-        - 2.0.1
-        - 2.0.2
-        - 2.0.4
-        - 2.0.6
-        - 2.0.8
-        - 2.1.1
-        - 2.1.2
-        - 2.1.3
-        - 2.1.4
-        - 2.1.6
-        - 2.1.7
-        - 2.1.8
-        - 2.1.9
-        - 2.1.10
-        compatible:
-        - 2.1.8
-        - 2.1.9
-        - 2.1.10
-        verified: 2.1.10
-      dependencies:
-      - name: com.unity.modules.vr
-        version: 1.0.0
-      - name: com.unity.modules.xr
-        version: 1.0.0
-      resolvedDependencies:
-      - name: com.unity.modules.vr
-        version: 1.0.0
-      - name: com.unity.modules.jsonserialize
-        version: 1.0.0
-      - name: com.unity.modules.physics
-        version: 1.0.0
-      - name: com.unity.modules.xr
-        version: 1.0.0
-      - name: com.unity.modules.subsystems
-        version: 1.0.0
-      keywords:
-      - TPD
-      - Tracked Pose Driver
-      - XR
-      - Input
-      - Helpers
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 637623088970000000
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.legacyinputhelpers.git
-        revision: ed3b32c709a0e51cf73fda4b200c59b48955c4be
-        path: 
     - packageId: com.unity.xr.management@4.2.0
       testable: 0
       isDirectDependency: 0
@@ -4657,7 +4657,7 @@ m_PackageAssets:
       - name: com.unity.modules.xr
         version: 1.0.0
       - name: com.unity.xr.legacyinputhelpers
-        version: 2.1.8
+        version: 2.1.10
       - name: com.unity.subsystemregistration
         version: 1.1.0
       keywords:
@@ -5153,7 +5153,7 @@ m_PackageAssets:
       - name: com.unity.modules.xr
         version: 1.0.0
       - name: com.unity.xr.legacyinputhelpers
-        version: 2.1.8
+        version: 2.1.10
       keywords:
       - arkit
       - ar

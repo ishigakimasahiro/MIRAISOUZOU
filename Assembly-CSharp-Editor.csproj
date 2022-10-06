@@ -855,6 +855,9 @@
     <Reference Include="Unity.XR.ARFoundation">
       <HintPath>C:/Users/isima/Desktop/Mirai0/MIRAISOUZOU/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>C:/Users/isima/Desktop/Mirai0/MIRAISOUZOU/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
